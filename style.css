@@ -1,0 +1,188 @@
+/* Imported font "Roboto" from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Margin, padding, and box-sizing */
+* 
+   {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+
+/* Styling for the content wrapper */
+.content-wrapper
+   {background: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-APR-Promo-Hero-Desktop-v2.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;}
+
+
+/* Styling for navigation area */
+.nav 
+   {height: 10px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+
+/* Styling for logo container */
+.logo-container
+   {width: 125px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;}
+
+
+/* Styling for the middle section */
+.middle-section {
+    display: flex;
+    justify-content: center;
+    flex: 1;}
+
+
+/*List Styling for middle section*/
+.middle-section > ul 
+   {display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;}
+
+
+/*Font Styling for Middle Section*/
+.middle-section > ul > li > a 
+   {color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;}
+
+
+/* Styling for the icons section */
+.icons-section 
+   {color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;}
+
+
+/* Font Styling For Icons Section*/
+.icons-section .material-symbols-outlined 
+
+   {font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    font-size: 24px;}
+
+
+/* Hover effect for icons */
+.icons-section:hover
+
+   {cursor: pointer;
+    color: rgb(219, 219, 219);}
+
+
+/*Styling for Main Content*/
+
+.main-content
+   {color: white;
+    height: 90px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;}
+
+
+/*Styling for Buttons Section*/
+.buttons-section
+   {display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;}
+    
+
+
+/* Styling for buttons */
+.model-y, .model-3
+   {color: rgb(119, 119, 119);
+    background-color: white;
+    padding: 7px 70px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;}
+
+/*Hover for buttons*/
+.model-y:hover, .model-3:hover
+   {background-color: rgb(248, 248, 248);}
+
+
+
+/*Model Y section*/
+.new-section *
+   {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+
+/*Styling for Model Y Section's Content Wrapper */
+.new-section .content-wrapper 
+   {background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png); 
+    height: 100vh;
+    background-position: center;}
+
+
+/* Styling for main content */
+.new-section .main-content
+   {color: white;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;}
+    
+
+/*Font Styling for Main Content */
+.new-section .main-content > h1
+    {font-size: 49px;
+     font-weight: 525px;}
+
+.new-section .main-content > h3
+    {text-decoration: underline;
+     font-weight: 550;}
+
+.new-section .main-content > p
+    {font-size: 15px;}
+
+
+/*Styling for Buttons Section*/
+.new-section .buttons-section
+   {display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 700px;}
+
+.new-section .buttons-section .order-now
+   {color:white;
+    background-color: #4169e1;
+    padding: 7px 70px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;}
+
+.new-section .buttons-section .demo-drive
+   {color: rgb(119, 119, 119);
+    background-color: white;
+    padding: 7px 70px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;}
+
+     
+
